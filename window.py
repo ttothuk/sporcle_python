@@ -39,7 +39,7 @@ addButton.pack()
 addText = tk.Text(frame)
 addText.pack()
 
-addText.insert(tk.INSERT, "Line Line Line")
+addText.insert(tk.INSERT, country_list)
 
 root.wm_title("Tkinter window")
 root.mainloop()
